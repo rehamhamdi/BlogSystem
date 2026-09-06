@@ -1,0 +1,11 @@
+* [33m60e7195[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m Update README.md
+* [33m29fb590[m Update README.md
+* [33m392c053[m Update README.md
+* [33me033155[m Update README.md
+* [33m3128f40[m Update README.md
+*   [33m4cadc30[m Merge pull request #1 from rehamhamdi/features/blog-system/comments
+[32m|[m[33m\[m  
+[32m|[m * [33m0b5a602[m[33m ([m[1;31morigin/features/blog-system/comments[m[33m, [m[1;32mfeatures/blog-system/comments[m[33m)[m Implemented comment features
+[32m|[m[32m/[m  
+* [33m8c21a76[m Initialize BlogSystem architecture
+* [33me7299bb[m Add .gitattributes, .gitignore, and README.md.

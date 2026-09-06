@@ -9,10 +9,11 @@ namespace BlogSystem.API.Controllers;
 public class CommentsController : ControllerBase
 {
     private readonly ISender _sender;
-
-    public CommentsController(ISender sender)
+    private readonly IEmailNotifier _notifier;
+    public CommentsController(ISender sender, IEmailNotifier notifier)
     {
         _sender = sender;
+        _notifier = notifier;
     }
 
     [HttpPost]
