@@ -100,27 +100,17 @@ The Domain layer knows nothing about EF Core, Hangfire, or MediatR — it's plai
 
 ---
 
-## Tech Stack
+##  Tech Stack
 
 | Layer | Technology |
-
 |---|---|
-
 | Language / Runtime | C# / .NET |
-
 | API | ASP.NET Core Web API |
-
 | CQRS / Mediator | [MediatR](https://github.com/jbogard/MediatR) |
-
 | ORM | Entity Framework Core |
-
 | Database | SQL Server |
-
 | In-process background queue | `System.Threading.Channels` + `BackgroundService` |
-
 | Durable background jobs | [Hangfire](https://www.hangfire.io/) (SQL Server storage) |
-
-|---|---|
 
 ---
 
