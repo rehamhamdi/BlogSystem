@@ -120,6 +120,8 @@ The Domain layer knows nothing about EF Core, Hangfire, or MediatR — it's plai
 
 | Durable background jobs | [Hangfire](https://www.hangfire.io/) (SQL Server storage) |
 
+|---|---|
+
 ---
 
 ##  Hangfire Dashboard
