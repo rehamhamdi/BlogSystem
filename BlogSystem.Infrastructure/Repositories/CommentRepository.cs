@@ -14,9 +14,12 @@ public class CommentRepository : ICommentRepository
         _db = db;
     }
 
-    public Task<Comment?> GetByIdAsync(Guid id, CancellationToken ct)
+    public async Task<Comment?> GetByIdAsync(
+     Guid id,
+     CancellationToken ct)
     {
-        return _db.Comments
+        return await _db.Comments
+            .Include(c => c.Post)
             .FirstOrDefaultAsync(c => c.Id == id, ct);
     }
 
